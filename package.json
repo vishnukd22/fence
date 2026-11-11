@@ -1,0 +1,27 @@
+{
+  "name": "fence-kochi",
+  "version": "1.0.0",
+  "description": "Fence: a one-night heist party game set in Kochi. TV + phones.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node test/bots.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource/bungee": "^5.3.0",
+    "@fontsource/special-elite": "^5.3.0",
+    "@fontsource/unifrakturmaguntia": "^5.3.0",
+    "express": "^4.22.3",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
